@@ -9,8 +9,11 @@
 
   <ItemGroup>
     <Folder Include="Examples\ConsoleOrSpeak\Interfaces\" />
-    <Folder Include="Examples\Car\" />
     <Folder Include="Examples\Shop\Interfaces\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="system.speech" Version="7.0.0" />
   </ItemGroup>
 
 </Project>
