@@ -7,4 +7,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Examples\Calculator\Interfaces\" />
+    <Folder Include="Examples\ConsoleOrSpeak\Interfaces\" />
+    <Folder Include="Examples\Shop\Interfaces\" />
+  </ItemGroup>
+
 </Project>

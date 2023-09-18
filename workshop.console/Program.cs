@@ -1,2 +1,13 @@
-﻿
-Console.WriteLine("Hello Interfaces....");
+﻿Console.WriteLine("Hello Interfaces....");
+
+
+//Calculator
+
+
+//ConsoleOrSpeak
+
+
+//Shop
+
+
+
