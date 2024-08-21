@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace workshop.console.Examples.Shop
+namespace workshop.console.Examples.Shop.Products
 {
     public class Drums : IProduct
     {

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace workshop.console.Examples.Calculator
 {
-    public class AddCalc : ICalculation
+    public class AddCalcEngine : ICalculation
     {
         public int Calculate(int a, int b)
         {

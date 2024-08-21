@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace workshop.console.Examples.Calculator.Interfaces
+namespace workshop.console.Examples.Calculator
 {
-    public class MultiplyCalc : ICalculation
+    public class MultiplyCalcEngine : ICalculation
     {
         public int Calculate(int a, int b)
         {
-           return a * b;
+            return a * b;
         }
     }
 }

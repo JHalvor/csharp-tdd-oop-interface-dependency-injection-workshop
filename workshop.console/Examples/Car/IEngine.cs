@@ -8,6 +8,7 @@ namespace workshop.console.Examples.Car
 {
     public interface IEngine
     {
+        int EngineSize { get; }
         void Start();
         void Accelerate();
     }

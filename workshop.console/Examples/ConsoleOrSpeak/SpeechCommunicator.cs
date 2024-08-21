@@ -11,11 +11,8 @@ namespace workshop.console.Examples.ConsoleOrSpeak
     {
         public void SendMessage(string message)
         {
-            //System.Speech.Synthesis.VoiceAge.
             SpeechSynthesizer synth = new SpeechSynthesizer();
-            
             synth.SetOutputToDefaultAudioDevice();
-
             synth.Speak(message);
         }
     }

@@ -6,20 +6,12 @@ using System.Threading.Tasks;
 
 namespace workshop.console.Examples.ConsoleOrSpeak
 {
-    public class Communicate : ICommunicator
+    public class Communicate
     {
-        private ICommunicator _communicator;
-        public Communicate()
+        
+        public void SendMessage(string message, ICommunicator communicator)
         {
-            
-        }
-        public Communicate(ICommunicator communicator)
-        {
-            _communicator = communicator;
-        }
-        public void SendMessage(string message)
-        {
-            _communicator.SendMessage(message);
+            communicator.SendMessage(message);
         }
     }
 }

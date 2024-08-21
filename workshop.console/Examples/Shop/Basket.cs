@@ -8,20 +8,14 @@ namespace workshop.console.Examples.Shop
 {
     public class Basket
     {
-        private List<IProduct> _products = new List<IProduct>();
-        
+        private List<IProduct> products = new List<IProduct>();
+
         public void AddProduct(IProduct product)
         {
-            _products.Add(product);
+            products.Add(product);
         }
+        public decimal BasketTotal { get { return products.Sum(x => x.Price); } }
+        public List<IProduct> Products { get { return products; } }
 
-        public List<IProduct> GetProducts { get { return _products; } }
-
-        public decimal BasketTotal { get { return _products.Sum(x => x.Price); } }
-
-        public void DeleteProduct(int id)
-        {
-            _products.RemoveAll(x => x.Id== id);
-        }
     }
 }
